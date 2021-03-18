@@ -1,7 +1,11 @@
 import sys #импорт ситстемы
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 from hack import Ui_Window   # импорт файла qt
+
 from Rule import Ui_WindowRule # импорт файла qt
+
 from lvl import Ui_windowLvl # импорт файла qt
 
 class ADDWINDOW1(QtWidgets.QMainWindow): #Создание окна Уровень
